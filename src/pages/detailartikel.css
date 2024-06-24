@@ -1,0 +1,253 @@
+/* src/DetailArtikel.css */
+.container {
+    display: flex;
+    flex-direction: column; /* Menata elemen anak secara vertikal */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    margin-left: 8%;
+    padding: 0;
+    color: #333;
+    min-height: 100vh;
+}
+
+header {
+    padding: 20px; /* Ubah padding sesuai kebutuhan */
+    margin-top: 80px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+a {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color:#9A9AB0;;
+}
+
+h1 {
+    text-align: left;
+    font-size: 40px;
+    margin: 20px 0 50px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.author span {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.metrics span {
+    margin-right: 5px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    flex: 1; /* Membuat elemen <main> mengisi sisa ruang */
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+article {
+    padding-top: 20px;
+    text-align: justify; 
+    text-align-last: left;
+}
+
+article p {
+    line-height: 1.6;
+    margin: 0 0 15px;
+}
+
+article a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.comment-section {
+    padding: 20px;
+    max-width: 1000px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.comment-input {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.post-button {
+    display: block;
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.comments {
+    margin-top: 50px;
+}
+
+.comment {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.comment-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-right: 10px;
+}
+
+.nyoman {
+    background-image: url('../assets/Autor/Nyoman.jpg'); /* Replace with the actual image path */
+}
+
+.kadek {
+    background-image: url('../assets/Autor/Kadek.jpg'); /* Replace with the actual image path */
+}
+
+.ratih {
+    background-image: url('../assets/Autor/Ratih.jpg'); /* Replace with the actual image path */
+}
+
+.anonymous {
+    background-image: url('../assets/Autor/VB.jpg'); /* Replace with the actual image path */
+}
+
+.comment-body {
+    flex: 1;
+}
+
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.comment-author {
+    font-weight: bold;
+}
+
+.comment-time {
+    font-size: 12px;
+    color: #999;
+}
+
+.comment-content {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.similar-articles {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.similar-articles-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.main-article {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.article-image {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.article-info {
+    flex: 1;
+}
+
+.article-category {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 5px;
+}
+
+.article-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.article-author {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.article-time {
+    font-size: 12px;
+    color: #999;
+}
+
+.other-articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.article {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.article-thumbnail {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.article-details {
+    flex: 1;
+}
+
+/* .view-all-button {
+    display: block;
+    background-color: #d4af37;
+    color: white;
+    border: none;
+    padding: 10px
+} */

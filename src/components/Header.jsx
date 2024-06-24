@@ -71,7 +71,7 @@ const Header = () => {
                 Portfolio
               </Nav.Link>
               <Nav.Link
-                href="#"
+                href="/artikel"
                 style={{
                   marginRight: "2rem",
                   fontFamily: "Poppins, sans-serif",

@@ -66,10 +66,10 @@ function Home() {
             textAlign: "center",
           }}
         >
-          <h1 style={{ margin: "0" }}>
+          <h1 style={{ margin: "0", color: "#FFFFFF" }}>
             Realize Your Dream World & Capture Every Moment
           </h1>
-          <h1 style={{ margin: "0" }}>
+          <h1 style={{ margin: "0", color: "#FFFFFF" }}>
             With <span style={{ color: "#B8901A" }}>V</span>
             isio
             <span style={{ color: "#B8901A" }}>B</span>
@@ -83,8 +83,8 @@ function Home() {
           style={{ margin: "50px 0", fontFamily: "'Outfit', sans-serif" }}
         >
           <h1 className="fw-bold">
-            Most{" "}
-            <span style={{ color: "#B8901A" }}>Needed Services in Bali</span>
+            <span style={{ color: "#000000", position: "relative", right: "450px" }}>Most</span>
+            <span style={{ color: "#B8901A", position: "relative", right: "440px" }}>Needed Services in Bali</span>
           </h1>
           <div
             className="text-home-head"
@@ -666,7 +666,8 @@ function Home() {
           <img src={iconPortfolio} alt="Logo" className="logo" />
         </div>
         <div className="Judul">
-          <h1 className="title">Our <span style={{ color: "#B8901A" }}>Portofolio</span> </h1>
+          <h1 className="title"><span style={{ color: "#000000", position: "relative", top: "-50px" }}>Our </span> </h1>
+          <h1 className="title"><span style={{ color: "#B8901A", position: "relative", top: "-50px", left: "10px" }}>Portofolio </span> </h1>
         </div>
         {/* <div class="servis-container">
           <div class="servis-item">
@@ -800,6 +801,7 @@ function Home() {
                 style={{
                   fontFamily: "'Outfit', sans-serif",
                   fontWeight: "bold",
+                  position: "relative", top: "-90px"
                 }}
               >
                 Contact Us{" "}
@@ -809,12 +811,13 @@ function Home() {
                     color: "#bf9b30",
                     fontFamily: "'Outfit', sans-serif",
                     fontWeight: "bold",
+                    position: "relative", top: "0px"
                   }}
                 >
                   Today
                 </span>
               </h1>
-              <p style={{ marginTop: "20px" }}>
+              <p style={{ marginTop: "20px", position: "relative", top: "-80px" }}>
                 We will contact you and draw up requirements for the project and
                 estimate.
               </p>
@@ -823,11 +826,11 @@ function Home() {
                 <p className="text-contactInfo">
                   <FontAwesomeIcon
                     icon={faEnvelope}
-                    style={{ color: "#bf9b30", marginRight: "5px" }}
+                    style={{ color: "#bf9b30", marginRight: "5px", position: "relative", top: "-80px" }}
                   />{" "}
-                  <span style={{ fontWeight: "bold" }}>Email</span>
+                  <span style={{ fontWeight: "bold", position: "relative", top: "-80px" }}>Email</span>
                   <br />
-                  <span className="custom-highlight">
+                  <span className="custom-highlight" style={{ fontWeight: "500", position: "relative", top: "-80px" }}>
                     visioblendbali@gmail.com
                   </span>
                 </p>
@@ -836,22 +839,22 @@ function Home() {
                 <p className="text-contactInfo">
                   <FontAwesomeIcon
                     icon={faPhone}
-                    style={{ color: "#bf9b30", marginRight: "5px" }}
+                    style={{ color: "#bf9b30", marginRight: "5px", position: "relative", top: "-80px" }}
                   />{" "}
-                  <span style={{ fontWeight: "bold" }}>Phone</span>
+                  <span style={{ fontWeight: "bold", position: "relative", top: "-80px" }}>Phone</span>
                   <br />
-                  <span className="custom-highlight">+62 857 3814 4820</span>
+                  <span className="custom-highlight" style={{ fontWeight: "500", position: "relative", top: "-80px" }}>+62 857 3814 4820</span>
                 </p>
               </div>
               <div className="text-wrap-contactInfo">
                 <p className="text-contactInfo">
                   <FontAwesomeIcon
                     icon={faMapMarkerAlt}
-                    style={{ color: "#bf9b30", marginRight: "5px" }}
+                    style={{ color: "#bf9b30", marginRight: "5px", position: "relative", top: "-80px" }}
                   />{" "}
-                  <span style={{ fontWeight: "bold" }}>Address</span>
+                  <span style={{ fontWeight: "bold", position: "relative", top: "-80px" }}>Address</span>
                   <br />
-                  <span className="custom-highlight">
+                  <span className="custom-highlight" style={{ fontWeight: "500", position: "relative", top: "-80px" }}>
                     Jl. Kapten Agung No.1, Denpasar
                   </span>
                 </p>
